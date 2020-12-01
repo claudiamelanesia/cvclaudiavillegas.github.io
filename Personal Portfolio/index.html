@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.3/css/line.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <nav>
+            <a href="#" class="logo">CV</a>
+            <ul>
+                <li><a href="#"class="active">Accueil</a></li>
+                <li><a href="#about-container">A propos de moi</a></li>
+                <li><a href="menu1.html">Contact</a></li>
+                
+            </ul>
+            <div class="toggle"></div>
+        </nav> 
+        <div class="text-container">
+            <p>Bonjour,</p>
+            <p>Je m'appelle Claudia Villegas</p>
+            <p>Je suis disponible et motivée pour rejoindre votre équipe en tant que<br>Chargée de projet formation</p>
+            <button class="hire-btn">Hire me</button>
+            <button class="down-cv">Download CV</button>
+        </div> 
+        
+    </section>
+    <div class="about-container">
+        <img src="images/PhotoCV.png" alt="foto">
+        <div class="about-text">
+        <p>A propos de moi</p>
+        <p>Chargée de projet formation</p>
+        <p>Passionnée par la formation et les nouvelles technologies, j'ai une experiencie professionnel de plus de 8 ans et j'ai travaillé dans differents secteurs d'activité: L'informatique,le battiment, les assurances,etc </p>
+        <p>J'ai une vision très complété de la formation notament la gestion de projet, l'ingénierie pedagogique et la communication.</p>
+        
+        </div>
+
+    </div>
+
+    <div class="services">
+        <div class="services-text">
+            <p>Compétences</p>
+            <p>Actions</p>
+            <p>Planifier, organiser et suivre les actions de formations, dans le respect du budget, des procédures et du plan de formation , en me assurant de la pertinence et de la cohérence des compétences acquises </p>
+        </div>
+        <div class="box-container">
+           
+                <div class="box-1">
+                <span>1</span>
+                <p class="heading">Elaboration du plan de formation</p>
+                <p class="details">A partir des orientations stratégiques des entreprises</p>
+                <button>Et plus...</button>
+                </div>
+     
+                <div class="box-2">
+                <span>2</span>
+                <p class="heading">Mise en place du plan de formation</p>
+                <p class="details">Organiser et coordonner les actions de formation,Suivre et contrôler les aspects budgétaires</p>
+                <button>Et plus...</button>
+                </div>
+          
+                <div class="box-3">
+                <span>3</span>
+                <p class="heading">Pilotage de son activité</p>
+                <p class="details">Établir et mettre à jour les tableaux de bord relatifs au processus de formation</p>
+                <button>Et plus...</button>
+                </div>
+            
+        </div>
+                  
+    </div>
+    
+	<div class="contact-me">
+		<p>Avez-vous un projet de formation en tête?</p>
+		<button>Contactez-moi</button>
+    </div>
+    
+    <footer>       
+        <p>Portfolio Claudia Villegas</p>        
+        <p>Si vous aimez mes compétences, nous pouvons travailler ensemble!</p>      
+        <div class="social-icons">
+        <a href="#"><i class="uil uil-clock"></i></a>
+        <a href="#"><i class="uil uil-ruler"></i></a>
+        <a href="#"><i class="uil uil-lightbulb"></i></a>
+        <a href="#"><i class="uil uil-plane"></i></a>
+        </div>
+       
+        <p class="copyright">Copyright Portfolio Claudia Villegas</p>
+    </footer>
+   <!--social-attach-bar-->
+   <div class="social">
+        <a href="#"><i class="uil uil-clock"></i></a>
+        <a href="#"><i class="uil uil-ruler"></i></a>
+        <a href="#"><i class="uil uil-lightbulb"></i></a>
+        <a href="#"><i class="uil uil-plane"></i></a>
+   </div>
+
+
+    <!--JQUery-------------------->
+<script type="text/javascript" src="js/JQuery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.toggle').click(function(){
+        $('.toggle').toggleClass('active')
+        $('nav').toggleClass('active')
+    })
+})
+</script>
+  
+    
+</body>
+</html>
